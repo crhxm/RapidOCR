@@ -191,6 +191,25 @@ If you find this project useful in your research, please consider cite:
 
 ### ⚖️ License
 
-The copyright of the OCR model is held by Baidu, while the copyrights of all other engineering scripts are retained by the repository's owner.
+License
 
-This project is released under the [Apache 2.0 license](./LICENSE).
+### Source code
+
+RapidOCR source code and engineering components are copyright
+RapidOCR Authors and licensed under the Apache License, Version 2.0.
+See [LICENSE](./LICENSE).
+
+### Models
+
+The bundled and hosted OCR model files are derived from official
+PaddleOCR models. Copyright in the upstream model weights is held by
+Baidu and/or the respective PaddleOCR rights holders.
+
+The applicable upstream models are distributed under the Apache
+License, Version 2.0. Converted model artifacts, including ONNX
+representations produced by RapidOCR, are redistributed under the same
+license terms.
+
+RapidOCR does not claim ownership of the upstream model weights.
+Model-specific sources, hashes, attribution, and conversion information
+are documented in [MODEL_LICENSES.md](./MODEL_LICENSES.md).
